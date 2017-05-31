@@ -2,7 +2,7 @@
 
 ### MEAN 
 
-*MongoDB*
-*Express.js*
-*Angular 2*
-*Node.js*
+*MongoDB* as the database
+*Express.js* as the web framework
+*Angular 2:*
+*Node.js:*
