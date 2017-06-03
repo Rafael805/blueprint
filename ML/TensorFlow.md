@@ -1,14 +1,24 @@
 ## TensorFlow  
 
+**Virtualenv:**  
++ virtual Python environment isolated from other Python development, incapable of interfering with or being affected by other Python programs on the same machine.
+
+```
+$ mkdir 'directory name'
+$ cd 'directory name' 
+$ virtualenv 'project name' 
+```
+ 
+
+
 To use TensorFlow you have to activate the Virtualenv environment again  
 
 ```
-$ source ~/tensorflow/bin/activate  # If using bash.
-(tensorflow)$  # Your prompt should change.
-# Run Python programs that use TensorFlow.  
+$ source 'project name'/bin/ativate   # If using bash.
+('project name')$  # Your prompt should change. 
 
 # When you are done using TensorFlow, deactivate the environment.
-(tensorflow)$ deactivate
+('project name')$ deactivate
 ```
 
 When done using TensorFlow, deactivate environent  
