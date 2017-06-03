@@ -30,5 +30,6 @@
 ### git checkout 
 + Include commit unique identifier 
 + HEAD: pointer in time 
++ git master to return to master branch 
 
 
