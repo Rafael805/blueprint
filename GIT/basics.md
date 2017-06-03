@@ -1,6 +1,6 @@
 ## GIT Basics 
 
-### git init 
+### git init (first thing to do) 
 + Makes a hidden directory called **.git**
 + Tracks all of the changes
 + Where all of git exists 
