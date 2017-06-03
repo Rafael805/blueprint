@@ -28,7 +28,7 @@
 + **q** to quit 
 
 ### git checkout 
++ Include commit unique identifier 
 + HEAD: pointer in time 
-+ No longer
 
 
