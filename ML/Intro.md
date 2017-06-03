@@ -33,6 +33,6 @@ Example: Given a patient with a tumor, we have to predict whether the tumor is m
 
 **Non-clustering:** The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).
 
-**m** = # of training examples / set
-**x**'s = "input" variable / features
-**y**'s = "outout" variable / "target" variable
+**m** = # of training examples / set  
+**x**'s = "input" variable / features  
+**y**'s = "outout" variable / "target" variable  
