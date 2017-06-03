@@ -22,3 +22,13 @@
 
 ### git commit -m
 + Add message 
+
+### git log
++ Displays history 
++ **q** to quit 
+
+### git checkout 
++ HEAD: pointer in time 
++ No longer
+
+
