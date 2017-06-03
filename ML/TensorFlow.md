@@ -3,13 +3,11 @@
 **Virtualenv:**  
 + virtual Python environment isolated from other Python development, incapable of interfering with or being affected by other Python programs on the same machine.
 
-```
+```   
 $ mkdir 'directory name'
 $ cd 'directory name' 
 $ virtualenv 'project name' 
-```
- 
-
+```   
 
 To use TensorFlow you have to activate the Virtualenv environment again  
 
@@ -29,4 +27,14 @@ When done using TensorFlow, deactivate environent
 # Your prompt should change back
 ```
 
+List all packages installed   
+```
+$ pip list 
+```
 
+### Python 
+
+Check python version  
+```
+$ python --version
+```
