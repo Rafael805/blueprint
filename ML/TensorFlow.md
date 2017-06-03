@@ -1,5 +1,7 @@
 ## TensorFlow  
 
+**Tensors:** Tensors are multilinear maps from vector spaces to the real numbers.  
+
 **Virtualenv:**  
 + virtual Python environment isolated from other Python development, incapable of interfering with or being affected by other Python programs on the same machine.
 
@@ -9,21 +11,18 @@ $ cd 'directory name'
 $ virtualenv 'project name' 
 ```   
 
-To use TensorFlow you have to activate the Virtualenv environment again  
+To use TensorFlow you have to activate the Virtualenv environment again if using bash.
 
 ```
-$ source 'project name'/bin/ativate   # If using bash.
-('project name')$  # Your prompt should change. 
-
-# When you are done using TensorFlow, deactivate the environment.
-('project name')$ deactivate
+$ source 'project name'/bin/ativate   
+('project name')$  
+# Your prompt should change. 
 ```
 
 When done using TensorFlow, deactivate environent  
 
 ```
 (tensorflow)$ deactivate  
-
 # Your prompt should change back
 ```
 
@@ -38,3 +37,15 @@ Check python version
 ```
 $ python --version
 ```
+
+Exit python in terminal  
+```
+$ exit()  
+```
+
+change python command 
+```
+$ alias python='python3'
+```
+
+
