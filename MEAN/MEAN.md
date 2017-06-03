@@ -5,7 +5,7 @@
 **Angular 2**  as the frontend framework  
 **Node.js** as the server platform  
 
-## MogoDB
+## MongoDB
 
 **NoSQL vs SQL**  
 
