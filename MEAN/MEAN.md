@@ -1,4 +1,4 @@
-## MEAN 
+# MEAN 
 
 **MongoDB** as the database  
 **Express.js** as the web framework  
