@@ -36,3 +36,5 @@ Example: Given a patient with a tumor, we have to predict whether the tumor is m
 **m** = # of training examples / set  
 **x**'s = "input" variable / features  
 **y**'s = "outout" variable / "target" variable  
+
+
