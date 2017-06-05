@@ -11,3 +11,6 @@ Bias term: b
 
 The weights of that matrix and the bias is where the machine learning comes in. The model needs to be trained. That means we need to find the values for weights and bias which are good at performing these predictions.
 
+Each image that we have as an input can have only one possible lable. We need to turn those scores into probabilities. We want the probablity of the correct class to be very close to 1 and the probablity for every other class to be close to 0. The way to turn scores into probabilities is to use a softmax function. It can take any kind of scores and turn them into proper probabilities. Scores in logistic regression are often called logits scores. 
+
+![scores](https://github.com/Rafael805/blueprint/blob/master/ML/logistic%20classifier.png)
