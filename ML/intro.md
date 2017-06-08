@@ -1,6 +1,6 @@
 ## What is machine learning?  
 
-Machine learning is used for a variety of things such as image and voice recognition, spam detection, fraud detection, stock market, teaching a computer how to play chess, and of course, self-driving cars. One of the main differences from humans and computers is that humans learn from past experiences. Whereas computers need to be told what to do, they need to be programmed. Can we get computers to learn from experience too? **YES**, we can. That is exactly what machine learning is. Teaching computers to learn to perform tasks form past experiences. For computers, past experiences are just recorded as data.  
+Machine learning is used for a variety of things such as image and voice recognition, spam detection, fraud detection, stock market, teaching a computer how to play chess, and of course, self-driving cars. One of the main differences from humans and computers is that humans learn from past experiences. Whereas computers need to be told what to do, they need to be programmed. Can we get computers to learn from experience too? **YES**, we can. That is exactly what machine learning is. Teaching computers to learn to perform tasks form past experiences. For computers, past experiences are just recorded as data. The ultimate goal of Machine Learning is to have data models that can learn and improve over time. In essence machine learning is making inferences on data from previous examples.  
 
 **Arthur Samuel (1959)**: Field of study that gives computers the ability to learn without being explicitly programmed. 
 
