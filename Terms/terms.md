@@ -6,4 +6,6 @@
 **ODM**: Object Data Maper ex: Mongoose  
 **REST**: Representational State Transfer:   
 **API**: Application Program Interfaces  
+**SQL**: Structured Query Language:  
+**DBMS**: Database Management System:  
 	
