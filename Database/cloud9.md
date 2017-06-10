@@ -13,7 +13,7 @@ show databases;
 The general command for creating a database:
 
 ```
-CREATE DATABASE database_name; 
+CREATE DATABASE <database_name>; 
 ```
 
 A specific example:
@@ -21,3 +21,19 @@ A specific example:
 ```
 CREATE DATABASE soap_store; 
 ```
+
+To drop a database:
+
+```
+DROP DATABASE <database_name>; 
+```
+
+For Example:
+
+```
+DROP DATABASE hello_world_db; 
+```
+
+Remember to be careful with this command! Once you drop a database, it's gone!
+
+
