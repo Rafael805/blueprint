@@ -42,6 +42,8 @@ Tell MySQL which database you want to be using:
 USE <database_name>; 
 ```
 
+
+
 Check the currrently used database:
 
 ```
@@ -49,9 +51,53 @@ SELECT database();
 ```
  
 -- example:  
+
+```
 USE dog_walking_app;
  
 SELECT database();
+```
+
+# Tables 
+
+Create a table 
+*Note:* table names should be pluralized
+
+```
+CREATE TABLE <table_name> (
+    <column_name> <data_type>,
+    <column_name> <data_type>
+  );
+```
+
+-- examlpe: 
+```
+CREATE TABLE cats (
+    name VARCHAR(100),
+    age INT
+  );
+```
+
+Show current tables in your database
+```
+SHOW TABLES;
+```
+
+Show columns from a specific table 
+```
+SHOW COLUMNS FROM <table_name>;
+```
+**Or...**(Describe table name)
+```
+DESC <table_name>;
+```
+
+Deleting Tables *Note:* Be careful with this command!
+```
+DROP TABLE <table_name>;
+```
 
 
 
+
+   
