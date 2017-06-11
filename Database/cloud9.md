@@ -36,4 +36,17 @@ DROP DATABASE hello_world_db;
 
 Remember to be careful with this command! Once you drop a database, it's gone!
 
+Tell MySQL which database you want to be using: 
+
+```
+USE <database_name>; 
+```
+
+Check the currrently used database:
+
+```
+SELECT database();
+```
+
+
 
