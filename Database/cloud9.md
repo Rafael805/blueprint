@@ -1,3 +1,5 @@
+#Databases
+
 Creating Databases Code
 Start the CLI:
 ```
@@ -97,7 +99,17 @@ Deleting Tables *Note:* Be careful with this command!
 DROP TABLE <table_name>;
 ```
 
-
-
-
-   
+-- example:
+```
+CREATE TABLE pastries
+  (
+    name VARCHAR(100),
+    quantity INT
+  );
+ 
+SHOW TABLES;
+ 
+DESC pastries;
+```
+ 
+DROP TABLE pastries;
