@@ -47,8 +47,6 @@ Check the currrently used database:
 ```
 SELECT database();
 ```
-
-USE <database name>;
  
 -- example:
 USE dog_walking_app;
