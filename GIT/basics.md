@@ -10,44 +10,64 @@ For almost all software projects, the source code is like the crown jewels - a p
 
 Git is a modern version control system. Basically, it is a way for developers to work with different versions of our code so we can safe different features, make notes as we progress, have different versions, and collaborate with different people. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source.  If you have a big project Git is a very beneficial tool.
 
-# GIT Basics 
+## Git Basics
 
 The three usual commands you will use are:
 
+```
 1. git init
 2. git add
 3. git commit
+```
 
-### git init (first thing to do) 
-+ Makes a hidden directory called **.git**
-+ Tracks all of the changes
-+ Where all of git exists 
-+ To remove git **rm -rf**
+### Create a new repository
 
-### git status
-+ Checks the status of the files (to see if they're being tracked)
+First thing to do is create a new directory (runningmkdir on the command line). Open it and perform
 
-**Two Step Process:**  
-1. git add
-2. git commmit 
+```
+git init
+```
 
-### git add  
-+ Use to include a file to be tracked  
+to initialize a new repository. This makes a hidden directory called .git which is where all of git exists.
 
-### git add .
-+ Adds all the files 
+### Check the status
 
+Check the status of the files (to see what the current state of our project is)
 
-### git commit -m
-+ Add message 
+```
+git status
+```
 
-### git log
-+ Displays history 
-+ **q** to quit 
+### Include a file to be tracked 
 
-### git checkout 
-+ Include commit unique identifier 
-+ HEAD: pointer in time 
-+ git master to return to master branch 
+To tell Git to start tracking changes made to your file, we first need to add it to the staging area by using
 
+```
+git add
+```
 
+### Commit the files 
+
+To store the staged changes run the commit command with a message describing what has been changed.
+
+```
+commit -m "Your message goes here"
+```
+
+### History
+
+Use Git's log as a journal that remembers all the changes you've committed so far, in the order of files committed. Try running it now:
+
+```
+git log
+```
+
+Use ```q``` to quit
+
+### Remove files
+
+To remove a file use:
+
+```
+rm -rf
+```
