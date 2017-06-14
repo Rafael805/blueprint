@@ -14,56 +14,56 @@ Open /Applications/Utilities/Terminal Keep in Dock for easy access.
 
 ## Looking Around
 
-ls: List all non-hidden files/folders
+```ls```: List all non-hidden files/folders
 
-ls -a: List all files/folders
+```ls -a```: List all files/folders
 
-ls -l: Details list of available files/folder. Note: Can be combined with -a
+```ls -l```: Details list of available files/folder. Note: Can be combined with -a
 
 ## Moving Around
 
-pwd: Displays your current path.
+```pwd```: Displays your current path.
 
-cd: Changes directory to entered directory (case sensitive)
+```cd```: Changes directory to entered directory (case sensitive)
 
 Note: Folders with spaces in name need to escape space: foo\ bar
 
-.: Starts at current directory
+```.```: Starts at current directory
 
-. .: Steps back a directory
+```..```: Steps back a directory
 
-~ : Starts at your user directory
+```~``` : Starts at your user directory
 
 ## Files and Folders
 
-mkdir {folder-name}: Makes a folder.
+```mkdir {folder-name}```: Makes a folder.
 Note: Folders with spaces in name need to escape space: foo\ bar
 
-rmdir {folder-name}: Removes an empty directory
+```rmdir {folder-name}```: Removes an empty directory
 
-touch {file-name}(Windows: New-Item {file-name} -type file: Will check to see if a file exists and, if it doesn't, create it
+```touch {file-name}```(Windows: New-Item {file-name} -type file: Will check to see if a file exists and, if it doesn't, create it
 
-echo "{content}" >: Will write content to a file
-cat: Will preview content in a file
+```echo "{content}" >```: Will write content to a file
+```cat```: Will preview content in a file
 
-mv: Moves a file. Can rename while moving by changing file extension
+```mv```: Moves a file. Can rename while moving by changing file extension
 
-rm: Deletes file (does not move to trash, cannot undo)
+```rm```: Deletes file (does not move to trash, cannot undo)
 
-rm -r: Deletes a not-empty directory (does not move to trash, cannot undo)
+```rm -r```: Deletes a not-empty directory (does not move to trash, cannot undo)
 
-OS X: open {file-or-folder}
-Linux: nautilus {file-or-folder}
-Windows: ii {file-or-folder} Opens a file or folder.
-Opening . will open the current directory
+OS X: ```open {file-or-folder}```
+Linux: ```nautilus {file-or-folder}```
+Windows: ```ii {file-or-folder} Opens a file or folder```
+Opening ```.``` will open the current directory
 
 ## Searching
 
-find {file-name} (Windows: Get-ChildItem {file-name}): Finds files and folders. Use -type for specific types and -name for the name of files on non-Windows systems.
+```find {file-name}``` (Windows: Get-ChildItem {file-name}): Finds files and folders. Use -type for specific types and -name for the name of files on non-Windows systems.
 
-grep "{search-term}" (Windows: select-string .\*.* -pattern "{search-term}": Find content inside of files. Use -n for line numbers, -r to search recursively
+```grep "{search-term}"``` (Windows: select-string .\*.* -pattern "{search-term}": Find content inside of files. Use -n for line numbers, -r to search recursively
 
-|: Pipe. Generic way of passing the results from one command to another
+```|```: Pipe. Generic way of passing the results from one command to another
 
 ## That's all folks!
 
