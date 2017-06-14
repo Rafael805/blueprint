@@ -1,4 +1,4 @@
-#Databases
+# Databases
 
 Creating Databases Code
 Start the CLI:
@@ -113,3 +113,19 @@ DESC pastries;
 ```
  
 DROP TABLE pastries;
+
+## Insert 
+Adding data to a table  
+```
+INSERT INTO <table_name>(<column_name>, <column_name>) #specifying the columns
+VALUES (<data>, <data>) #the values for the columns
+```
+
+--example:
+```
+INSERT INTO cats(name, age) VALUES ('Jetson', 7);
+```
+
+
+
+
