@@ -48,7 +48,7 @@ Minecraft
 Mini web server
 Moving Digital Photo Frame
 MP3 player
- News and RSS Feeds
+ News and RSS Feeds
 Open the garage door
 Personal weather station / logger
 Pi-powered alarm system
@@ -65,5 +65,4 @@ Vehicle tracking (using an add-on GPS module)
 Video chat
 Wall mounted, interactive mood lamp
 Webcam server
-
 
