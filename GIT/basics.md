@@ -104,6 +104,23 @@ HEAD goes to a previously made commit of your choice. You have in essence rewind
 ```git reset 5d69206```
 To find the SHA ust ```git log```
 
+#  Branching
+
+Git allows us to create branches to experiment with versions of a project. 
+
+To check which branch you're on use:   
+
+```git branch```
+
+The ```*``` (asterisk) will show you what branch you’re on
+
+--example:
+
+```* master```
+
+To create a new branch, use:
+
+```git branch new_branch```
 
 
 ## Remove files
