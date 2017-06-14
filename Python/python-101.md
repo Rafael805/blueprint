@@ -14,7 +14,7 @@ Python includes several built-in container types: lists, dictionaries, sets, and
 **Sets**: unordered collection of distinct elements.  
 **Tuples**: an (immutable) ordered list of values. A tuple is in many ways similar to a list; one of the most important differences is that tuples can be used as keys in dictionaries and as elements of sets, while lists cannot.  
 
-# What is Numpy?
+# What is Numpy (Numerical Python) ?
 
 Numpy is the core library for scientific computing in Python. It is a library that provides functions that are especially useful when you have to work with large arrays and matrices of numeric data, like doing matrix matrix multiplications. Numpy allows us to process large amount of numerical data. The array object class is the foundation of Numpy, and Numpy arrays are like lists in Python, except that every thing inside an array must be of the same type, like int or float.
 
@@ -62,4 +62,12 @@ Pandas Library Documentation: http://pandas.pydata.org/pandas-docs/version/0.17.
 
 # What is Matplotlib?
 
-Matplotlib is a plotting library. The most important function in matplotlib is ```plot```, which allows you to plot 2D data
+Matplotlib is a 2D plotting library. The most important function in matplotlib is ```plot```, which allows you to plot 2D data
+
+# What is SciPy (Scientific Python)?
+The scipy  package contains various toolboxes dedicated to common issues in scientific computing.
+
+# What is Scikit Learn?
+Scikit-Learn is a Python package desgined to give access to well-known machine learning algorithms within Python code. 
+
+
