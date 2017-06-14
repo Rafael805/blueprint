@@ -22,47 +22,47 @@ The Arduino will only run a single program, called a Sketch, that does a specifi
 
 ## Project Ideas:
 
-Arcade Game
-Backup server
-BitTorrent Server
-Brains for Arduino setup
-Build a cheap laptop/tablet
-CD/DVD ripping device
-Control a light display
-Control an LED board
-Control garden lighting
-Control sprinkler system
-Controlling a coffee machine
-Create a digital photo frame
-Creating an e-mail notifier light
-Display photographer portfolio images
-Drone
-Firewall
-FTP server
-Game server
-Home automation system
-In car computer, put it on the dashboard
-Intelligent photo frame with touch
-Media streaming
-Minecraft
-Mini web server
-Moving Digital Photo Frame
-MP3 player
- News and RSS Feeds
-Open the garage door
-Personal weather station / logger
-Pi-powered alarm system
-Portable Media PC
-Radio
-Robotics
-Run an alarm system
-Security webcam (with motion sensor)
-Solar powered desktop computer
-Streaming internet radio box
-Sunrise/sunset timer for Christmas lights
-TOR server
-Vehicle tracking (using an add-on GPS module)
-Video chat
-Wall mounted, interactive mood lamp
-Webcam server
+Arcade Game  
+Backup server  
+BitTorrent Server  
+Brains for Arduino setup  
+Build a cheap laptop/tablet  
+CD/DVD ripping device  
+Control a light display  
+Control an LED board  
+Control garden lighting  
+Control sprinkler system  
+Controlling a coffee machine  
+Create a digital photo frame  
+Creating an e-mail notifier light  
+Display photographer portfolio images  
+Drone  
+Firewall  
+FTP server   
+Game server  
+Home automation system  
+In car computer, put it on the dashboard  
+Intelligent photo frame with touch  
+Media streaming  
+Minecraft  
+Mini web server  
+Moving Digital Photo Frame  
+MP3 player  
+ News and RSS Feeds  
+Open the garage door  
+Personal weather station / logger  
+Pi-powered alarm system  
+Portable Media PC  
+Radio  
+Robotics   
+Run an alarm system  
+Security webcam (with motion sensor)  
+Solar powered desktop computer  
+Streaming internet radio box  
+Sunrise/sunset timer for Christmas lights  
+TOR server  
+Vehicle tracking (using an add-on GPS module)  
+Video chat  
+Wall mounted, interactive mood lamp  
+Webcam server  
 
