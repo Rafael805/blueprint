@@ -20,7 +20,7 @@ Raspberry Pi is different than the Arduino (another famous, super-inexpensive co
 
 The Arduino will only run a single program, called a Sketch, that does a specific programmed activity. You're likely to use an Arduino to control a specific aspect of a device, like a robot's arm. You might use a Raspberry Pi for anything where you'd want a fully functional, inexpensive computer.
 
-## Project Ideas:
+# Project Ideas:
 
 Arcade Game  
 Backup server  
