@@ -1,6 +1,7 @@
-## MongoDB
+# What is MongoDB?
+MongoDB is one of the most popular NoSQL databases. 
 
-**NoSQL vs SQL**  
+## NoSQL vs SQL**  
 
 + NoSQL is not a relational database. 
 
