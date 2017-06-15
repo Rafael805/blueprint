@@ -108,6 +108,17 @@ To find the SHA ust ```git log```
 
 Git allows us to create branches to experiment with versions of a project. 
 
+## Create branch
+To create a new branch, use:
+
+```git branch <branch_name>```
+
+## Switch branch
+You can switch to the new branch with
+
+```git checkout <branch_name>```
+
+## Check branch
 To check which branch you're on use:   
 
 ```git branch```
@@ -118,10 +129,12 @@ The ```*``` (asterisk) will show you what branch you’re on
 
 ```* master```
 
-To create a new branch, use:
+## Merge branch
+merging the branch into master with:
 
-```git branch new_branch```
+```git merge <branch_name>```
 
+The merge is a "fast forward" because Git recognizes that the new branch contains the most recent commit. Git fast forwards master to be up to date with the new branch.
 
 ## Remove files
 
