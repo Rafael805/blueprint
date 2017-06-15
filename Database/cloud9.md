@@ -82,6 +82,17 @@ Create a table with NULL/NOT NULL
 
 Using NOT NULL will not allow a empty value as data
 
+Setting default values:
+--example: 
+```
+CREATE TABLE cats3
+  (
+    name VARCHAR(20) DEFAULT 'no name provided',
+    age INT DEFAULT 99
+  );
+```
+
+
 ### Show tables 
 Show current tables in your database
 ```
