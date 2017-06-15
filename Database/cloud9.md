@@ -76,7 +76,7 @@ CREATE TABLE cats (
   );
 ```
 
-Create a table with NULL/NOT NULL
+### NULL/NOT NULL && DEFAULT
 --example:
 ``` CREATE TABLE cats(name VARCHAR(100) NOT NULL, age INT NOT NULL);```
 
@@ -92,6 +92,16 @@ CREATE TABLE cats4
   );
 ```
 
+### Assigning key w/ autoincrement 
+--example:
+```
+CREATE TABLE unique_cats2 (
+    cat_id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    PRIMARY KEY (cat_id)
+);
+```
 
 ### Show tables 
 Show current tables in your database
@@ -148,5 +158,6 @@ INSERT INTO cats(name, age) VALUES ('Jetson', 7);
 ### Show warnings
 To show warnings use: 
 ```SHOW WARNINGS;```
+
 
 
