@@ -1,51 +1,37 @@
 # Databases
 
 Creating Databases Code
+
+### Start
 Start the CLI:
 ```
 mysql-ctl cli; 
 ```
 
+### List databases
 List available databases:
 
 ```
 show databases; 
 ```
 
+### Create database
 The general command for creating a database:
 
 ```
 CREATE DATABASE <database_name>; 
 ```
 
-A specific example:
+--example: ```CREATE DATABASE soap_store;```
 
-```
-CREATE DATABASE soap_store; 
-```
-
-To drop a database:
-
-```
-DROP DATABASE <database_name>; 
-```
-
-For Example:
-
-```
-DROP DATABASE hello_world_db; 
-```
-
-Remember to be careful with this command! Once you drop a database, it's gone!
-
+### Use database
 Tell MySQL which database you want to be using: 
 
 ```
 USE <database_name>; 
 ```
 
-
-
+### Check database
 Check the currrently used database:
 
 ```
@@ -60,8 +46,18 @@ USE dog_walking_app;
 SELECT database();
 ```
 
+### Drop database
+To drop a database:
+
+```DROP DATABASE <database_name>; ```
+
+--example: ```DROP DATABASE hello_world_db; ```
+
+Remember to be careful with this command! Once you drop a database, it's gone!
+
 # Tables 
 
+### Create table 
 Create a table 
 *Note:* table names should be pluralized
 
@@ -80,6 +76,13 @@ CREATE TABLE cats (
   );
 ```
 
+Create a table with NULL/NOT NULL
+--example:
+``` CREATE TABLE cats(name VARCHAR(100) NOT NULL, age INT NOT NULL);```
+
+Using NOT NULL will not allow a empty value as data
+
+### Show tables 
 Show current tables in your database
 ```
 SHOW TABLES;
@@ -94,6 +97,7 @@ SHOW COLUMNS FROM <table_name>;
 DESC <table_name>;
 ```
 
+### Drop table
 Deleting Tables *Note:* Be careful with this command!
 ```
 DROP TABLE <table_name>;
@@ -110,11 +114,13 @@ CREATE TABLE pastries
 SHOW TABLES;
  
 DESC pastries;
-```
  
 DROP TABLE pastries;
+```
 
-## Insert 
+# Insert 
+
+### Add data
 Adding data to a table  
 ```
 INSERT INTO <table_name>(<column_name>, <column_name>) #specifying the columns
@@ -126,6 +132,10 @@ VALUES (<data>, <data>) #the values for the columns
 INSERT INTO cats(name, age) VALUES ('Jetson', 7);
 ```
 
+# Warning 
 
+### Show warnings
+To show warnings use: 
+```SHOW WARNINGS;```
 
 
