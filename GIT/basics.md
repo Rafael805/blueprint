@@ -14,8 +14,7 @@ Git is a modern version control system. Git enables you to rewind to the part be
 
 The three usual commands you will use are:
 
-```
-1. git init
+```1. git init
 2. git add
 3. git commit
 ```
@@ -62,7 +61,7 @@ Use Git's log as a journal that remembers all the changes you've committed so f
 git log
 ```
 
-To see the difference between a file as it appears in the working directory vs. how it appears in your last commit: 
+To see the difference between a file as it appears in the working directory vs. how it appears in your last commit:
 
 ```git diff```
 
@@ -91,7 +90,7 @@ This command resets the file in the staging area to be the same as the HEAD comm
 To rewind to the part before you made the wrong turn and create a new destiny for the project:
 ```git reset SHA```
 
-*Note:* This command works by using the first 7 characters of the SHA of a previous commit. 
+*Note:* This command works by using the first 7 characters of the SHA of a previous commit.
 
 **Before reset:**
 
@@ -106,7 +105,7 @@ To find the SHA ust ```git log```
 
 #  Branching
 
-Git allows us to create branches to experiment with versions of a project. 
+Git allows us to create branches to experiment with versions of a project.
 
 ## Create branch
 To create a new branch, use:
@@ -119,7 +118,7 @@ You can switch to the new branch with
 ```git checkout <branch_name>```
 
 ## Check branch
-To check which branch you're on use:   
+To check which branch you're on use:
 
 ```git branch```
 
@@ -141,6 +140,3 @@ The merge is a "fast forward" because Git recognizes that the new branch contain
 To remove a file use:
 
 ```rm -rf```
-
-
-
