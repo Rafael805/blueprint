@@ -11,14 +11,14 @@ Where:
 ``PATH``: path on the server.  
 ``HANDLER``: function executed when the route is matched.  
 
-### Initialize Express 
+## Initialize Express 
 
 ```
 var express = require("express");  
 var app = express; 
 ```
 
-### Simple Routes 
+## Simple Routes 
 
 Respond with Hello World! on the homepage:
 
