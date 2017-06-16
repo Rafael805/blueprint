@@ -1,3 +1,12 @@
+# Initialize Express 
+
+```
+var express = require("express");  
+var app = express; 
+```
+
+# Simple Routes 
+
 Route definition takes the following structure:
 
 ```
@@ -10,15 +19,6 @@ Where:
 ``METHOD``:  HTTP request method, in lowercase.  
 ``PATH``: path on the server.  
 ``HANDLER``: function executed when the route is matched.  
-
-## Initialize Express 
-
-```
-var express = require("express");  
-var app = express; 
-```
-
-## Simple Routes 
 
 Respond with Hello World! on the homepage:
 
@@ -42,8 +42,12 @@ Respond to a PUT request to the /user route:
 app.put('/user', function (req, res) {
   res.send('Got a PUT request at /user')
 })
+```
+
 Respond to a DELETE request to the /user route:
 
+```
 app.delete('/user', function (req, res) {
   res.send('Got a DELETE request at /user')
 })
+```
