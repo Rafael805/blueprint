@@ -1,7 +1,6 @@
 # Databases
 
 Creating Databases Code
-
 ### Start
 Start the CLI:
 ```
@@ -10,14 +9,12 @@ mysql-ctl cli;
 
 ### List databases
 List available databases:
-
 ```
 show databases; 
 ```
 
 ### Create database
 The general command for creating a database:
-
 ```
 CREATE DATABASE <database_name>; 
 ```
@@ -26,14 +23,12 @@ CREATE DATABASE <database_name>;
 
 ### Use database
 Tell MySQL which database you want to be using: 
-
 ```
 USE <database_name>; 
 ```
 
 ### Check database
 Check the currrently used database:
-
 ```
 SELECT database();
 ```
@@ -182,10 +177,20 @@ To show warnings use:
 
 ### Update 
 ```UPDATE <table_name> SET <column_name> = <value> WHERE <column_name> = <value>```
---example:  
-```UPDATE cats SET breed= `Shorthair WHERE breed = `Tabby`;```
---example:
-```UPDATE cats SET age=14 WHERE name='Misty';```
+
+--example:  ```UPDATE cats SET breed= `Shorthair WHERE breed = `Tabby`;```
+
+--example: ```UPDATE cats SET age=14 WHERE name='Misty';```
 
 When you're updating something make sure you're selecting the right data. Try SELECTing before you UPDATE. 
 
+### Delete
+```DELETE FROM <table_name> WHERE <column_name> = <value>```
+
+--example: ```DELETE FROM cats WHERE name='Fluffy';```
+
+*Note:* SELECT the data before using DELETE.
+
+To delete all the data in the table use: ```DELETE FROM <table_name>```
+
+This is different from dropping a table. Dropping a table gets rid of the table entirely and all data inside of it but DELETE just deletes the entrie s but you are still left with the table. 
