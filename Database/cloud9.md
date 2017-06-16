@@ -167,10 +167,10 @@ To show warnings use:
 ### Read
 ```SELECT * FROM <table_name>;```
 ```SELECT <column_name>, <column_name> FROM <table_name>;```
+--example:```SELECT size, color FROM shirts;
 
 ```SELECT * FROM <table_name> WHERE <column_name> = <value>```
---example:
-```SELECT * FROM food WHERE name='Egg'```
+--example:```SELECT * FROM food WHERE name='Egg'```
 *Note:* Egg && EGG will give you the same results because it is case insensitive 
 
 ```SELECT cat_id, age WHERE cat_id=age;```
