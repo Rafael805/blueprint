@@ -16,6 +16,9 @@ Express is a web development framework. By using with express you're able to foc
 # Why Express? 
 Express is by far the most popular node web development framework. It has the most the most downloads on npm and contributors. There is a big community who know express.
 
+to install express use: 
+```npm install express```
+
 **HTTP Request/Response**: When you go to a URL like Google.com and hit ENTER, you are asking for a web page. You send a HTTP request and that request is either a GET request, POST request, etc. You potentionally send data along with your request. The server that you're requesting from will decide what page to send back to you (e.g Google home page, Google login page, etc). Whatever it is, the server is deciding what to send back and it responds with a response. That is what you're going to use Express to do:
 
 + Send a request, server side code figures out what you'r asking for and then it sends you back a response. 
