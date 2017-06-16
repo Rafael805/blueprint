@@ -28,7 +28,8 @@ Express is by far the most popular node web development framework. It has the mo
 ```
 app.get("/", function(request, response) {
 response.render("home")
-});```
+});
+```
 
 Inside of routes we have code that is rendering the home page that is going to respond with the content of our home page which is another file somewhre else. 
 
