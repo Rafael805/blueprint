@@ -21,9 +21,10 @@ The three usual commands you will use are:
 
 ## Create a new repository
 
-First thing to do is create a new directory (runningmkdir on the command line). Open it and perform
+First thing to do is create a new directory (running mkdir on the command line). Open it and perform
 
-```git init```
+```git init
+```
 
 to initialize a new repository. This makes a hidden directory called .git which is where all of git exists.
 
@@ -31,19 +32,23 @@ to initialize a new repository. This makes a hidden directory called .git whic
 
 Check the status of the files (to see what the current state of our project is)
 
-```git status```
+```git status
+```
 
 ## Include a file to be tracked 
 
 To tell Git to start tracking changes made to your file, we first need to add it to the staging area by using
 
-```git add```
+```git add
+```
 
 To at multiple files, you could add the changed files to the staging area with:
-```git add filename_1 filename_2```
+```git add filename_1 filename_2
+```
 
 To add all files use:
-```git add *```
+```git add *
+```
 
 ## Commit the files 
 
@@ -57,13 +62,13 @@ commit -m "Your message goes here"
 
 Use Git's log as a journal that remembers all the changes you've committed so far, in the order of files committed. Try running it now:
 
-```
-git log
+```git log
 ```
 
 To see the difference between a file as it appears in the working directory vs. how it appears in your last commit:
 
-```git diff```
+```git diff
+```
 
 Use ```q``` to quit
 
@@ -72,20 +77,25 @@ Use ```q``` to quit
 In Git, the commit you are currently on is known as the ```HEAD``` commit. In many cases, the most recently made commit is the ```HEAD``` commit.
 
 To see the ```HEAD``` commit, enter:
-```git show HEAD```
+```git show HEAD
+```
 
 *Note:* The output of this command will display everything the git log command displays for the HEAD commit, plus all the file changes that were committed.
 
 To restore the file in your working directory to look exactly as it did when you last made a commit use:
-```git checkout HEAD <file_name>```
+```git checkout HEAD <file_name>
+```
 
 To unstage a file from the staging area use:
-```git reset HEAD <file_name>```
+```git reset HEAD <file_name>
+```
 This command resets the file in the staging area to be the same as the HEAD commit. It does not discard file changes from the working directory, it just removes them from the staging area.
 
 *Note:* in the output, "Unstaged changes after reset":
 ```M    <file_name>```
-```M``` is short for "modification"
+```M
+```
+ is short for "modification"
 
 To rewind to the part before you made the wrong turn and create a new destiny for the project:
 ```git reset SHA```
