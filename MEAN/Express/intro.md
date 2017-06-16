@@ -25,7 +25,8 @@ Express is by far the most popular node web development framework. It has the mo
 
 --example: Code that is listening for a request to the home page "/".
 
-```app.get("/", function(request, response) {
+```
+app.get("/", function(request, response) {
 response.render("home")
 });
 ```
