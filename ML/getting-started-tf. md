@@ -80,5 +80,12 @@ Output:
 
 In machine learning we will typically want a model that can take arbitrary inputs, such as the one above. To make the model trainable, we need to be able to modify the graph to get new outputs with the same input. **Variables** allow us to add trainable parameters to a graph. They are constructed with a type and initial value.
 
+```
+W = tf.Variable([.3], tf.float32)
+b = tf.Variable([-.3], tf.float32)
+x = tf.placeholder(tf.float32)
+linear_model = W * x + b
+```
 
+Constants are initialized when you call ```tf.constant```, and their value can never change. By contrast, variables are not initialized when you call ```tf.Variable```. To initialize all the variables in a TensorFlow program, you must explicitly call a special operation as follows:
 
