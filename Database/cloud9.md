@@ -159,5 +159,33 @@ INSERT INTO cats(name, age) VALUES ('Jetson', 7);
 To show warnings use: 
 ```SHOW WARNINGS;```
 
+# Aliases (AKA)
 
+```SELECT <column_name> AS <new_column_name> FROM <table>;```
+*Note:* The fields do not really change. You can check by printing your table. 
+
+## CRUD (Create Read Update Delete)
+
+### Create 
+```INSERT INTO <table_name>(<column_name>, <column_name>) VALUES(<value>, <value>);```
+
+### Read
+```SELECT * FROM <table_name>;```
+```SELECT <column_name>, <column_name> FROM <table_name>;```
+
+```SELECT * FROM <table_name> WHERE <column_name> = <value>```
+--example:
+```SELECT * FROM food WHERE name='Egg'```
+*Note:* Egg && EGG will give you the same results because it is case insensitive 
+
+```SELECT cat_id, age WHERE cat_id=age;```
+
+### Update 
+```UPDATE <table_name> SET <column_name> = <value> WHERE <column_name> = <value>```
+--example:  
+```UPDATE cats SET breed= `Shorthair WHERE breed = `Tabby`;```
+--example:
+```UPDATE cats SET age=14 WHERE name='Misty';```
+
+When you're updating something make sure you're selecting the right data. Try SELECTing before you UPDATE. 
 
