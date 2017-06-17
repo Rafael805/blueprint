@@ -60,7 +60,7 @@ Here are some basics:
 
 # Images
 
-An image is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization.
+An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files. It is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization.
 
 # Containers
 
