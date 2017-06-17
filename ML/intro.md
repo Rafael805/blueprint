@@ -15,7 +15,7 @@ T = the task of playing checkers.
 
 P = the probability that the program will win the next game.
 
-# 4 steps to Machine Learning 
+# 4 steps of Machine Learning 
 + Create model 
 + Define Cost function 
 + Collect data
