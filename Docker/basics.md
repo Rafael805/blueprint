@@ -34,6 +34,11 @@ A Docker container consists of
 
 Docker is an excellent platform to run software in containers. These containers are self-contained and isolated processes. A container is a runnable instance of an image. By default, a container is relatively well isolated from other containers and its host machine. You can control how isolated a container’s network, storage, or other underlying subsystems are from other containers or from the host machine.
 
+You can kill a container and free up the port by using: 
+```
+docker kill <container_id>
+```
+
 # Saving changes to a Docket container 
 After running our Docker image (in another window), we can run
 ```
