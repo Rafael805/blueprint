@@ -52,6 +52,15 @@ TensorFlow has a much cleaner interface as compared to Theano. Many classes of m
 
 TensorFlow provides an extensive suite of functions and classes that allow users to define models from scratch. This is more complicated but offers much more flexibility. You can build almost any architecture you can think of in TensorFlow.
 
+# Inception
++ One of Google's best image classifiers 
++ Open source 
++ Trained 1.2 million images 
+
+# TF Learn 
++ High level ML library on top of TensorFlow
++ Similar to scikit-learn
+
 ### Importing Tenstorflow 
 
 To give Python access to all of TensorFlow's classes, methods, and symbols:
