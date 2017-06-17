@@ -89,3 +89,57 @@ linear_model = W * x + b
 
 Constants are initialized when you call ```tf.constant```, and their value can never change. By contrast, variables are not initialized when you call ```tf.Variable```. To initialize all the variables in a TensorFlow program, you must explicitly call a special operation as follows:
 
+```
+init = tf.global_variables_initializer()
+```
+
+or 
+
+```
+init = tf.initialize_all_variables()
+```
+
+```init``` is a handle to the TensorFlow sub-graph that initializes all the global variables. Until we call ```sess.run```, the variables are uninitialized.
+
+Since ```x``` is a placeholder, we can evaluate ```linear_model``` for several values of ```x``` simultaneously as follows:
+
+```
+print(sess.run(linear_model, {x:[1,2,3,4]}))
+```
+
+Output: 
+```
+[ 0.          0.30000001  0.60000002  0.90000004]
+```
+
+We've created a model, but we don't know how good it is yet. To evaluate the model on training data, we need a ```y``` placeholder to provide the desired values, and we need to write a **loss function**.
+
+A **loss function** measures how far apart the current model is from the provided data. We'll use a standard loss model for **linear regression**, which sums the squares of the deltas between the current model and the provided data. ```linear_model - y``` creates a vector where each element is the corresponding example's error delta. We call ```tf.square``` to square that error. Then, we sum all the squared errors to create a single scalar that abstracts the error of all examples using ```tf.reduce_sum```:
+
+```
+y = tf.placeholder(tf.float32)
+squared_deltas = tf.square(linear_model - y)
+loss = tf.reduce_sum(squared_deltas)
+print(sess.run(loss, {x:[1,2,3,4], y:[0,-1,-2,-3]}))
+```
+
+TensorFlow provides **optimizers** that slowly change each variable in order to minimize the loss function. The simplest optimizer is **gradient descent**. It modifies each variable according to the magnitude of the derivative of loss with respect to that variable. In general, computing symbolic derivatives manually is tedious and error-prone. Consequently, TensorFlow can automatically produce derivatives given only a description of the model using the function tf.gradients. For simplicity, optimizers typically do this for you. For example,
+
+```
+optimizer = tf.train.GradientDescentOptimizer(0.01)
+train = optimizer.minimize(loss)
+```
+
+```
+sess.run(init) # reset values to incorrect defaults.
+for i in range(1000):
+  sess.run(train, {x:[1,2,3,4], y:[0,-1,-2,-3]})
+
+print(sess.run([W, b]))
+```
+
+Output: 
+```
+[array([-0.9999969], dtype=float32), array([ 0.99999082],
+ dtype=float32)]
+ ```
