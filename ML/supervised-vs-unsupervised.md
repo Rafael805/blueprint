@@ -6,7 +6,7 @@
 
 ### collect training data --> train classifier --> make predictions 
 
-# Classification 
+## Classification 
 Discrete valued output. We are trying to map input variables into discrete categories. When y can take on only a small number of discrete values (such as if, given the living area, we wanted to predict if a dwelling is a house or an apartment, say), we call it a classification problem. 
 Example: Given a patient with a tumor, we have to predict whether the tumor is malignant or benign (0 no / 1 yes) 
 
@@ -19,6 +19,8 @@ Predict continuous valued output. Meaning that we are trying to map input variab
 
 
 # Unsupervised Learning
+
++ The program is given a bunch of data and must find patterns and relationships therein.
 
 Allows us to approach problems with little or no idea what our results should look like.
 We can derive this structure by clustering the data based on relationships among the variables in the data.
