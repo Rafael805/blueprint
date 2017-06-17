@@ -18,3 +18,18 @@ it's essential in machine learning that we have separate data which we don't lea
 The first dimension is an index into the list of images and the second dimension is the index for each pixel in each image. Each image is 28 pixels by 28 pixels = 784
 
 Each image in MNIST has a corresponding label, a number between 0 and 9 representing the digit drawn in the image.
+
+# Softmax Regressions
+Every image in MNIST is of a handwritten digit between zero and nine. So there are only ten possible things that a given image can be. We want to be able to look at an image and give the probabilities for it being each digit. For example, our model might look at a picture of a nine and be 80% sure it's a nine, but give a 5% chance to it being an eight (because of the top loop) and a bit of probability to all the others because it isn't 100% sure.
+
+If you want to assign probabilities to an object being one of several different things, softmax is the thing to do, because softmax gives us a list of values between 0 and 1 that add up to 1. Even when we train more sophisticated models, the final step will be a layer of softmax.
+
+A softmax regression has two steps:   
+1. Add up the evidence of our input being in certain classes 
+2. Convert that evidence into probabilities
+
+To tally up the evidence that a given image is in a particular class, we do a **weighted sum** of the pixel intensities. The weight is negative if that pixel having a high intensity is evidence against the image being in that class, and positive if it is evidence in favor.
+
+We also add some extra evidence called a **bias**. Basically, we want to be able to say that some things are more likely independent of the input.
+
+
