@@ -164,6 +164,23 @@ To execute an SQL script file use the source command:
 
 ``` source book_data.sql```
 
+# Concatenate
+```CONCAT (<column_name>, 'text', <another_column_name>, 'more text' ```
+
+--example: 
+```
+SELECT author_fname AS first, author_lname AS last, 
+  CONCAT(author_fname, ' ', author_lname) AS full
+FROM books;
+```
+
+To save you typing use ```CONCAT_WS``` to add a text/symbol 
+```
+SELECT 
+    CONCAT_WS(' - ', title, author_fname, author_lname) 
+FROM books;
+```
+
 ## CRUD (Create Read Update Delete)
 
 ### Create 
