@@ -159,6 +159,11 @@ To show warnings use:
 ```SELECT <column_name> AS <new_column_name> FROM <table>;```
 *Note:* The fields do not really change. You can check by printing your table. 
 
+# Source 
+To execute an SQL script file use the source command:
+
+``` source book_data.sql```
+
 ## CRUD (Create Read Update Delete)
 
 ### Create 
