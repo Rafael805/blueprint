@@ -5,8 +5,7 @@ This is a curated list of notes on technologies and languages I have learned abo
 + Databases
 + Docker
 + GIT
-+ Javascript   
- 1. NPM
++ Javascript  
 + MEAN
 + ML
 + Networking
