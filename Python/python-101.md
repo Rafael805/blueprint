@@ -15,3 +15,17 @@ Python includes several built-in container types: lists, dictionaries, sets, and
 **Tuples**: an (immutable) ordered list of values. A tuple is in many ways similar to a list; one of the most important differences is that tuples can be used as keys in dictionaries and as elements of sets, while lists cannot.  
 
 
+Check python version  
+```
+$ python --version
+```
+
+Exit python in terminal  
+```
+$ exit()  
+```
+
+change python command 
+```
+$ alias python='python3'
+```
