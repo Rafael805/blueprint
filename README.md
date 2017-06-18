@@ -9,8 +9,10 @@ This is a curated list of notes on technologies and languages I have learned abo
 + MEAN
 + ML
 + Networking
++ Pip
 + Python
 + Raspberry PI
 + RESTful
 + Terminal 
 + Terms
++ Virtualenv
