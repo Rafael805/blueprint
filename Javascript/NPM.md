@@ -16,6 +16,8 @@ The way that we get those libraries when we're writing server side jaascript/nod
 + centralized repository of 200,000 + packages 
 
 All you have to do is type   
-```npm install <name_of_package>```  
+```
+npm install <name_of_package>
+```  
 (as long as NPM knows about that package) That's it. You don't have to go find a CDN/link/copy and pasting.   
 
