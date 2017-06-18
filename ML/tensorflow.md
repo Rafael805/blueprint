@@ -61,13 +61,13 @@ TensorFlow provides an extensive suite of functions and classes that allow users
 + High level ML library on top of TensorFlow
 + Similar to scikit-learn
 
-### Importing Tenstorflow 
+## Importing Tenstorflow 
 
 To give Python access to all of TensorFlow's classes, methods, and symbols:
 ```
 import tensorflow as tf
 ```
-### Computational graph
+# Computational graph
 Computational graph is a series of TensorFlow operations arranged into a graph of nodes. Each node takes zero or more tensors as inputs and produces a tensor as an output. One type of node is a constant. Like all TensorFlow constants, it takes no inputs, and it outputs a value it stores internally.
 
 ```
