@@ -26,3 +26,5 @@ npm install <name_of_package>
 ```  
 (as long as NPM knows about that package) That's it. You don't have to go find a CDN/link/copy and pasting.   
 
+# Start
+To start use ```npm init``` to create a ```package.json``` file.
