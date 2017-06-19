@@ -6,6 +6,7 @@ This is a curated list of notes on technologies and languages I have learned abo
    + MySQL
 + Docker 
 + GIT
++ Heroku 
 + Javascript  
    + NPM
    + JSON
