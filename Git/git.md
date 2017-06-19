@@ -10,7 +10,9 @@ For almost all software projects, the source code is like the crown jewels - a p
 
 Git is a modern version control system. Git enables you to rewind to the part before you made a wrong turn and create a new destiny for your project. Basically, it is a way for developers to work with different versions of our code so we can safe different features, make notes as we progress, have different versions, and collaborate with different people. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source.  If you have a big project Git is a very beneficial tool.
 
-## Git Basics
+Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
+
+# Git Basics
 
 The three usual commands you will use are:
 
@@ -53,7 +55,7 @@ To store the staged changes run the commit command with a message describing 
 commit -m "Your message goes here"
 ```
 
-## History
+# History
 
 Use Git's log as a journal that remembers all the changes you've committed so far, in the order of files committed. Try running it now:
 
@@ -164,7 +166,7 @@ In order to collaborate, you and your partner need:
 + A way to keep track of and review each other's work
 + Access to a definitive project version
 
-You can accomplish all of this by using **remotes**. A remote is a shared Git repository that allows multiple collaborators to work on the same Git project from different locations. Collaborators work on the project independently, and merge changes together when they are ready to do so.
+You can accomplish all of this by using **remotes**. A remote is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a separate folder on your local computer. It is a shared Git repository that allows multiple collaborators to work on the same Git project from different locations. Collaborators work on the project independently, and merge changes together when they are ready to do so.
 
 In order to get your own replica of a remote repository, you'll need to clone it with. The ```<remote_location>``` tells Git where to go to find the remote. This could be a web address, or a filepath (e.g ```/Users/teachers/Documents/some-remote```). The ```<clone_name>``` is the name you give to the directory in which Git will clone the repository.
 ```
@@ -185,3 +187,26 @@ An easy way to see if changes have been made to the remote and bring the changes
 git fetch
 ```
 This command will not merge changes from the remote into your local repository. It brings those changes onto what's called a remote branch. 
+
+Even though your partner's new commits have been fetched to your local copy of the Git project, those commits are on the ```origin/master``` branch. Your *local* ```master``` branch has not been updated yet, so you can't view or make changes to any of the work she has added.
+
+Merge origin/master into your local master branch:
+```
+git merge origin/master
+```
+
+The workflow for Git collaborations typically follows this order:
+
+1. Fetch and merge changes from the remote
+2. Create a branch to work on a new project feature
+3. Develop the feature on your branch and commit your work
+4. Fetch and merge from the remote again (in case new commits were made while you were working)
+5. Push your branch up to the remote for review
+
+Steps 1 and 4 are a safeguard against merge conflicts, which occur when two branches contain file changes that cannot be merged with the ```git merge``` command. Step 5 involves ```git push```, a command you will learn in the next exercise.
+
+To share our work with your partner and push your branch up to the remote, ```origin```. Your partner can then review your branch and merge your work into the ```master``` branch, making it part of the definitive project version.
+```
+git push origin <your_branch_name>
+```
+Git will inform you that your branch was pushed up to the remote. 
