@@ -10,10 +10,14 @@ If we want to include something like jQuery or the Bootstrap javascript library 
 
 The way that we get those libraries when we're writing server side jaascript/node is through NPM. Rather that calling them libraries NPM refers to them as packages but it's the same idea. Packages are just code that someone else has written that we can include to our own projects. All the packages are centralized in the NPM website. Awesome! Furthermore, NPM has a command line tool that lets you install things really easily. 
 
+# Version 
 To check your current npm version use the following in your terminal 
 ```
 npm -v
 ```
+
+# Start
+To start use ```npm init``` which creates a ```package.json``` file.
 
 **Packages**
 + javascript/node version of libraries
@@ -24,7 +28,6 @@ All you have to do is type
 ```
 npm install <name_of_package>
 ```  
-(as long as NPM knows about that package) That's it. You don't have to go find a CDN/link/copy and pasting.   
+(as long as NPM knows about that package) That's it. 
 
-# Start
-To start use ```npm init``` to create a ```package.json``` file.
+
