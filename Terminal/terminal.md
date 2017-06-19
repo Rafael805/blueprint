@@ -30,6 +30,8 @@ Each directory can contain more files and child directories. The parent-child re
 
 ```ls -t```: Order files and directories by the time they were last modified.
 
+```clear```: Clears the terminal window, moving the command prompt to the top of the screen.
+
 *Note*: 
 The options can be combined as ```ls -alt``` which lists all contents, including hidden files and directories, in long format, ordered by the date and time they were last modified.
 
@@ -45,7 +47,7 @@ Note: Folders with spaces in name need to escape space: foo\ bar
 
 ```..```: Steps back a directory
 
-```~``` : Starts at your user directory
+```~``` : Represents the user's home directory.
 
 ## Files and Folders
 
@@ -120,6 +122,9 @@ $ cat glaciers.txt >> rivers.txt
 
 ```|```: Pipe. Generic way of passing the results from one command to another. You can think of this as "command to command" redirection.
 
+## More 
+```nano```: A command line text editor
+```alias```: Allows you to create keyboard shortcuts, or aliases, for commonly used commands.
 ## That's all folks!
 
 Feel free to bookmark this to refer back when hacking away on your own terminal. Leave a comment below for any suggestions or comments. Thank you
