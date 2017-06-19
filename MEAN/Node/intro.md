@@ -17,8 +17,10 @@ Here is how Node.js handles a file request:
 + Add, delete, modify data in your database
 
 # Node version 
-To check your current node version type the following in the terminal 
-```node -v```
+To check your current node version type the following in the terminal:
+```
+node -v
+```
 
 # What is a Module in Node.js?
 Consider modules to be the same as JavaScript libraries. A set of functions you want to include in your application.
