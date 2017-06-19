@@ -105,20 +105,15 @@ To find the SHA ust ```git log```
 
 #  Branching
 
-Git allows us to create branches to experiment with versions of a project.
+Git allows us to create branches to experiment with versions of a project. In Git, branches are usually a means to an end. You create them to work on a new project feature, but the end goal is to merge that feature into the ```master``` branch. After the branch has been integrated into ```master```, it has served its purpose and can be deleted.
 
 ## Create branch
 To create a new branch, use:
 
 ```git branch <branch_name>```
 
-## Switch branch
-You can switch to the new branch with
-
-```git checkout <branch_name>```
-
 ## Check branch
-To check which branch you're on use:
+To check which branch you're on or to lists all a Git project's branches: 
 
 ```git branch```
 
@@ -128,15 +123,46 @@ The ```*``` (asterisk) will show you what branch you’re on
 
 ```* master```
 
+## Switch branch
+To switch from one branch to another:
+
+```git checkout <branch_name>```
+
 ## Merge branch
-merging the branch into master with:
+To join file changes from one branch to another:
 
 ```git merge <branch_name>```
 
+Git uses markings to indicate the HEAD (master) version of the file and the other version of the file, like this:
+
+```
+<<<<<<< HEAD
+master version of line
+=======
+<other_version> version of line
+>>>>>>> <other_version>
+```
+
 The merge is a "fast forward" because Git recognizes that the new branch contains the most recent commit. Git fast forwards master to be up to date with the new branch.
+
+## Remove branch
+To delete the specified branch from your Git project: 
+```
+git branch -d <branch_name>
+```
 
 ## Remove files
 
 To remove a file use:
 
 ```rm -rf```
+
+# Remotes
+In order to collaborate, you and your partner need:
+
++ A complete replica of the project on your own computers
++ A way to keep track of and review each other's work
++ Access to a definitive project version
+
+You can accomplish all of this by using **remotes**. A remote is a shared Git repository that allows multiple collaborators to work on the same Git project from different locations. Collaborators work on the project independently, and merge changes together when they are ready to do so.
+
