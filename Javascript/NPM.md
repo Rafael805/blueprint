@@ -1,7 +1,6 @@
 # What is NPM (Node Package Manager)
 *npm is the package manager for javascript.*
 
-
 + npm is the package manager for Node.js. It was created in 2009 as an open source project to help JavaScript developers easily share packaged modules of code.
 + The npm Registry is a public collection of packages of open-source code for Node.js, front-end web apps, mobile apps, robots, routers, and countless other needs of the JavaScript community.
 + npm is the command line client that allows developers to install and publish those packages.
@@ -19,7 +18,8 @@ npm -v
 # Start
 To start use ```npm init``` which creates a ```package.json``` file.
 
-**Packages**
+# Installing Packages
+Packages: 
 + javascript/node version of libraries
 + let's us install packages easily
 + centralized repository of 200,000 + packages 
@@ -29,5 +29,10 @@ All you have to do is type
 npm install <name_of_package>
 ```  
 (as long as NPM knows about that package) That's it. 
+
+To save to your ```package.json``` make sure you add the ```--save``` when installing your packages. 
+```
+npm install <name_of_package> --save
+```
 
 
