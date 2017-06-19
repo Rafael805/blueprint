@@ -166,3 +166,22 @@ In order to collaborate, you and your partner need:
 
 You can accomplish all of this by using **remotes**. A remote is a shared Git repository that allows multiple collaborators to work on the same Git project from different locations. Collaborators work on the project independently, and merge changes together when they are ready to do so.
 
+In order to get your own replica of a remote repository, you'll need to clone it with. The ```<remote_location>``` tells Git where to go to find the remote. This could be a web address, or a filepath (e.g ```/Users/teachers/Documents/some-remote```). The ```<clone_name>``` is the name you give to the directory in which Git will clone the repository.
+```
+git clone <remote_location> <clone_name>
+```
+Your clone is your local copy of the remote Git project. If you commit changes to your local copy, your partner will not know about them.  
+
+One thing that Git does behind the scenes when you clone a remote is give the remote address the name *origin*, so that you can refer to it more conveniently. In this case, your partner's remote is origin.
+
+You can see a list of a Git project's remotes with the command:
+```
+git remote -v
+```
+The remote is listed twice: once for ```(fetch)``` and once for ```(push)```  
+
+An easy way to see if changes have been made to the remote and bring the changes down to your local copy is with:
+```
+git fetch
+```
+This command will not merge changes from the remote into your local repository. It brings those changes onto what's called a remote branch. 
