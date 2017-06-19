@@ -37,6 +37,7 @@ This is a curated list of notes on technologies and languages I have learned abo
    + Scipy
 + Raspberry PI
 + RESTful
++ React
 + Terminal 
 + Terms
 + VM
