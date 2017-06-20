@@ -2,6 +2,54 @@
 
 SQL is a programming language designed to manage data stored in relational databases. SQL operates through simple, declarative statements. This keeps data accurate and secure, and helps maintain the integrity of databases, regardless of size.
 
+One of the core purposes of the SQL language is to retrieve information stored in a database. This is commonly referred to as querying. **Queries** allow us to communicate with the database by asking questions and having the result set return data relevant to the question. ```SELECT``` is used every time you want to query data from a database.
+
+
+```SELECT DISTINCT``` is used to return unique values in the result set and filters out all duplicate values. 
+```
+SELECT DISTINCT <column_name> FROM <table_name>;
+```
+
+```LIKE``` is a special operator used with the WHERE clause to search for a specific pattern in a column.
+--example: 
+```
+SELECT * FROM movies
+WHERE name LIKE 'Se_en';
+```
+```Se_en``` represents a pattern with a wildcard character. The ```_``` means you can substitute any individual character here without breaking the pattern. The names ```Seven``` and ```Se7en``` both match this pattern.
+
+```%``` is a wildcard character that matches zero or more missing letters in the pattern.
+
+```A%``` matches all movies with names that begin with "A"
+```%a``` matches all movies that end with "a"
+
+The ```BETWEEN``` operator is used to filter the result set within a certain range. The values can be numbers, text or dates. 
+
+--example:
+```
+SELECT * FROM movies WHERE year BETWEEN 1990 AND 2000;
+```
+In this statement, the ```BETWEEN``` operator is being used to filter the result set to only include movies with ```year```s between 1990 up to and including 2000. ```AND``` is an operator that combines two conditions. Both conditions must be true for the row to be included in the result set.
+--example:
+```
+SELECT * FROM movies
+WHERE genre = 'comedy'
+OR year < 1980;
+```
+The ```OR``` operator can also be used to combine more than one condition in a ```WHERE``` clause. The ```OR``` operator evaluates each condition separately and if any of the conditions are true then the row is added to the result set.
+
+You can sort the results of your query using ```ORDER BY```. Sorting the results often makes the data more useful and easier to analyze. ```DESC``` is a keyword in SQL that is used with ```ORDER BY``` to sort the results in *descending order* (high to low or Z-A). It is also possible to sort the results in ascending order. ```ASC``` is a keyword in SQL that is used with ```ORDER BY``` to sort the results in ascending order (low to high or A-Z).
+
+--example: 
+```
+SELECT * FROM movies
+ORDER BY imdb_rating DESC;
+```
+
+```LIMIT``` is a clause that lets you specify the maximum number of rows the result set will have. It lets you specify the maximum number of rows that the query will return. This is especially important in large tables that have thousands or even millions of rows.
+
+
+# Databases
 
 ### List databases
 List available databases:
