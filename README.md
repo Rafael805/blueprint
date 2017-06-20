@@ -11,6 +11,7 @@ This is a curated list of notes on technologies and languages I have learned abo
 + Javascript  
    + NPM
    + JSON
+   + jQuery
 + MEAN
    + MongoDB
    + Express
