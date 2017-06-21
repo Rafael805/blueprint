@@ -31,13 +31,13 @@ This is a curated list of notes on technologies and languages I have learned abo
 + Networking
    + HTTP
    + SSH
-+ Pip
 + Python
    + Matplotlib
    + Numpy
    + Pandas
    + Scikit-learn
    + Scipy
+   + Pip
 + Raspberry PI
 + RESTful
 + React
