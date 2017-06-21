@@ -16,6 +16,14 @@ Here is how Node.js handles a file request:
 + Collect form data
 + Add, delete, modify data in your database
 
+# Using Node
+
+Start by using the node comman to run a file 
+```Node <file_name>```
+
+--example: ```Node app.js```
+
+
 # Node version 
 To check your current node version type the following in the terminal:
 ```
@@ -41,3 +49,5 @@ Use the ```exports``` keyword to make properties and methods available outside t
 Now you can include and use the module in any of your Node.js files.
 
 use ```./``` to locate the module, that means that the module is located in the same folder as the Node.js file.
+
+# Node's HTTP server
