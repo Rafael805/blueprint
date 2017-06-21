@@ -56,3 +56,20 @@ To size non-text HTML elements relative to their parent elements on the page you
   width: 50%;
 }
 ```
+
+# Max & Min
+
+When a browser window is narrowed or widened, text can become either very compressed or very spread out, making it difficult to read. Two properties ensure that content is legible by limiting the minimum and maximum widths. You can limit an element with the following properties:  
+```min-width``` — ensures a minimum width for an element.
+```max-width``` — ensures a maximum width for an element.
+```min-height``` — ensures a minimum height for an element's box.
+```max-height``` — ensures a maximum height for an element's box
+
+--example: 
+ ```
+ p {
+  min-width: 300px;
+  max-width: 600px;
+}
+```
+In the example above, when the browser is resized, the width of paragraph elements will not fall below 300 pixels, nor will their width exceed 600 pixels.
