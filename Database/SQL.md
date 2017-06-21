@@ -208,7 +208,9 @@ To execute an SQL script file use the source command:
 
 ``` source book_data.sql```
 
-# Concatenate
+# String Functions 
+
+## Concatenate
 ```CONCAT (<column_name>, 'text', <another_column_name>, 'more text' ```
 
 --example: 
@@ -225,7 +227,41 @@ SELECT
 FROM books;
 ```
 
-## CRUD (Create Read Update Delete)
+## Substring
+--example: 
+```
+SELECT SUBSTRING('Hello World', 1, 4);
+```
+
+## Replace
+--example: 
+```
+SELECT REPLACE('Hello World', 'Hell', '%$#@');
+```
+
+## Reverse
+--example:
+```
+SELECT REVERSE('Hello World');
+```
+## Character lenght 
+--example:
+```
+SELECT CHAR_LENGTH('Hello World');
+ ```
+ Output: 11
+ 
+ ## Upper/Lowercase
+ --example: 
+ ```
+SELECT UPPER('Hello World');
+Output: HELLO WORLD
+ 
+SELECT LOWER('Hello World');
+OUTPUT: hello world
+```
+ 
+# CRUD (Create Read Update Delete)
 
 ### Create 
 ```INSERT INTO <table_name>(<column_name>, <column_name>) VALUES(<value>, <value>);```
