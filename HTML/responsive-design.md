@@ -2,6 +2,8 @@ Modern technology allows users to browse the Internet via multiple devices, such
 
 The answer: *responsive design*! 
 
+Relative units of measurement are a first step towards incorporating responsive design in a website. When combined with more advanced responsive techniques, you can create a seamless user experience regardless of a device's screen size.
+
 # Pixels
 Pixels are used to size content to exact dimensions. For example, if you want a div to be exactly 500 pixels wide and 100 pixels tall, then the unit of ```px``` can be used. Pixels, however, are fixed, **hard coded** values meaning that they cannot be altered without modifying the program. When a screen size changes (like switching from landscape to portrait view on a phone), elements sized with pixels can appear too small, overflow the screen, or become completely illegible.
 
@@ -73,3 +75,18 @@ When a browser window is narrowed or widened, text can become either very compre
 }
 ```
 In the example above, when the browser is resized, the width of paragraph elements will not fall below 300 pixels, nor will their width exceed 600 pixels.
+
+# Auto
+When the height of an image or video is set, then its width can be set to ```auto``` so that the media scales proportionally. Reversing these two properties and values will also achieve the same result.
+
+# Scaling background images 
+
+By default, images will repeat. Not have the background image not repeat use:
+```
+background-repeat: no-repeat;
+```
+To scale the background image and have it cover the entire background of the element, all while keeping the image in proportion, use: 
+```
+background-size: cover;
+```
+
