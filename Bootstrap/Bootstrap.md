@@ -1,1 +1,2 @@
 # What is Boostrap?
+Bootstrap is a responsive CSS framework. Bootstrap will figure out how wide your screen is and respond by resizing your HTML elements (Responsive Design). With responsive design, there is no need to design a mobile version of your website. It will look good on devices with screens of any width. You can add Bootstrap to any app by adding a Bootstrap CDN (Content Delivery Network). 
