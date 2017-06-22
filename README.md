@@ -2,7 +2,6 @@
   
 This is a curated list of notes on technologies and languages I am learning about. Feel free to explore and contribute to the notes.  
 
-+ Bootstrap
 + Databases
    + MySQL
 + Docker 
@@ -45,6 +44,7 @@ This is a curated list of notes on technologies and languages I am learning abou
 + Terms
 + VM
 + Web
+   + Bootstrap
    + CSS 
    + HTML
    + responsive design
