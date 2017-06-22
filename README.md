@@ -7,7 +7,6 @@ This is a curated list of notes on technologies and languages I am learning abou
    + MySQL
 + Docker 
 + GIT
-+ HTML
 + Heroku 
 + Javascript  
    + NPM
@@ -45,3 +44,7 @@ This is a curated list of notes on technologies and languages I am learning abou
 + Terminal 
 + Terms
 + VM
++ Web
+   + CSS 
+   + HTML
+   + responsive design
