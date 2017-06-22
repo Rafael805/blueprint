@@ -90,3 +90,5 @@ To scale the background image and have it cover the entire background of the ele
 background-size: cover;
 ```
 
+# Media Queries
+CSS uses *media queries* to adapt a website's content to different screen sizes. With media queries, CSS can detect the size of the current screen and apply different CSS styles depending on the width of the screen. 
