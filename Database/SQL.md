@@ -297,11 +297,3 @@ To delete all the data in the table use: ```DELETE FROM <table_name>```
 
 This is different from dropping a table. Dropping a table gets rid of the table entirely and all data inside of it but DELETE just deletes the entrie s but you are still left with the table. 
 
-# To count the number of users in the database:
-```
-var q = 'SELECT COUNT(*) AS total FROM users ';
-connection.query(q, function (error, results, fields) {
-  if (error) throw error;
-  console.log(results[0].total);
-});
-```
