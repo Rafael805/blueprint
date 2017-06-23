@@ -64,7 +64,8 @@ use ```./``` to locate the module, that means that the module is located in the 
 # Node's HTTP server
 
 # MySQL
-Connect to MySQL:
+
+## Connect to MySQL:
 ```var mysql = require("mysql");
 
 var connection = mysql.createConnection({
@@ -73,7 +74,7 @@ var connection = mysql.createConnection({
     database: "<database_name>"
 });
 ```
-Run queries:
+## Run queries:
 ```
 var q = '<query>';
 
@@ -82,7 +83,6 @@ connection.query(q, function (error, results, fields) {
     console.log(results);
 });
 ```
-
 ## To count the number of users in the database:
 ```
 var q = 'SELECT COUNT(*) AS total FROM users ';
@@ -91,3 +91,17 @@ connection.query(q, function (error, results, fields) {
   console.log(results[0].total);
 });
 ```
+## An easier approach that allows for dynamic data
+--example: 
+```
+var person = {
+    email: faker.internet.email(),
+    created_at: faker.date.past()
+};
+ 
+var end_result = connection.query('INSERT INTO users SET ?', person, function(err, result) {
+  if (err) throw err;
+  console.log(result);
+});
+```
+
