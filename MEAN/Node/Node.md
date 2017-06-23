@@ -82,3 +82,12 @@ connection.query(q, function (error, results, fields) {
     console.log(results);
 });
 ```
+
+## To count the number of users in the database:
+```
+var q = 'SELECT COUNT(*) AS total FROM users ';
+connection.query(q, function (error, results, fields) {
+  if (error) throw error;
+  console.log(results[0].total);
+});
+```
