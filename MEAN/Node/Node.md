@@ -30,6 +30,17 @@ To check your current node version type the following in the terminal:
 node -v
 ```
 
+# Getting started
+Command line:
+```
+touch app.js
+```
+Execute:
+```
+node app.js
+```
+
+
 # What is a Module in Node.js?
 Consider modules to be the same as JavaScript libraries. A set of functions you want to include in your application.
 
@@ -51,3 +62,23 @@ Now you can include and use the module in any of your Node.js files.
 use ```./``` to locate the module, that means that the module is located in the same folder as the Node.js file.
 
 # Node's HTTP server
+
+# MySQL
+Connect to MySQL:
+```var mysql = require("mysql");
+
+var connection = mysql.createConnection({
+    host: "localhost",
+    user: "<user_name>",
+    database: "<database_name>"
+});
+```
+Run queries:
+```
+var q = '<query>';
+
+connection.query(q, function (error, results, fields) {
+    if (error) throw error;
+    console.log(results);
+});
+```
