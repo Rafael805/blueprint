@@ -70,3 +70,17 @@ app.listen(3000, function () {
 })
 ```
 Then, load http://localhost:3000/ in a browser to see the output.
+
+--example: 
+```
+var express = require('express');
+var app = express();
+
+app.get("/", function (req, res) {
+  res.send("Hello World, from our web app!");
+});
+
+app.listen(8080, function() {
+  console.log('App listening on port 8080!');
+});
+```
