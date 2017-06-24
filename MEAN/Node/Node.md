@@ -105,3 +105,32 @@ var end_result = connection.query('INSERT INTO users SET ?', person, function(er
 });
 ```
 
+# EJS (Embedded JavaScript)
+Install:
+```
+npm install --save ejs 
+```
+Method that lets us set certain settings: 
+```
+app.set("view engine", "ejs");
+```
+Create a views directory and then a file. 
+--example: 
+Look for a views directory  --> look for home.ejs in that directory
+```
+res.render('home');
+```
+
+# Bodr Parser
+Because express is a lightweight framework we need body parser to parse the request body. 
+```
+npm install --save body-parser
+```
+
+```
+var bodyParser = require("body-parser");
+```
+
+```
+app.use(bodyParser.urlencoded({extended: true}));
+```
