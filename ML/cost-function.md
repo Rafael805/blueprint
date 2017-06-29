@@ -1,0 +1,1 @@
+For linear regression problems, people typically use a cost function that measures the distance between the linear model preditions and the training examples; the objective is to minimize this distance.
