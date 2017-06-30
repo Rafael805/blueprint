@@ -8,7 +8,7 @@ In **supervised learning**, the training data you feed to the algorithm includes
 
 ### collect training data --> train classifier --> make predictions 
 
-Importannt supervised learning algorithms: 
+Important supervised learning algorithms: 
 + k-Nearest Neighbors
 + Linear Regression
 + Support Vector Machines (SVM)
