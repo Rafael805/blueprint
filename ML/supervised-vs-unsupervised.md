@@ -29,16 +29,16 @@ Predict continuous valued output. Meaning that we are trying to map input variab
 
 + The program is given a bunch of data and must find patterns and relationships therein.
 
-In **unsupervised learning** the training data is unlabeles. The system tries to learn without a teacher. It allows us to approach problems with little or no idea what our results should look like. We can derive this structure by clustering the data based on relationships among the variables in the data. With unsupervised learning there is no feedback based on the prediction results.
+In **unsupervised learning** the training data is unlabeled. The system tries to learn without a teacher. It allows us to approach problems with little or no idea what our results should look like. We can derive this structure by clustering the data based on relationships among the variables in the data. With unsupervised learning there is no feedback based on the prediction results.
 
 Important unsupervised learning algorithms: 
 + Clustering 
    + k-Means
-   + Hierarchical Cluser Amalysis (HCA)
+   + Hierarchical Cluster Analysis (HCA)
    + Expectation Maximization
 + Visualization and dimensionality reduction
    + Principal Component Analysis (PCA)
-   + Kernal PCA
+   + Kernel PCA
    + Locally-Linear Embedding (LLE)
    + t-distributed Stochastic Neighbor Embedding (t-SNE)
 + Association rule learning 
