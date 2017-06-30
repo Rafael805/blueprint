@@ -11,6 +11,7 @@ In **supervised learning**, the training data you feed to the algorithm includes
 Important supervised learning algorithms: 
 + k-Nearest Neighbors
 + Linear Regression
++ Logistic Regression
 + Support Vector Machines (SVM)
 + Decision Trees and Random Forests 
 + Neural Networks 
