@@ -4,7 +4,7 @@
 + The program is “trained” on a pre-defined set of “training examples”, which then facilitate its ability to reach an accurate conclusion when given new data..
 + Supervised learning problems are categorized into "regression" and "classification" problems.
 
-In **supervised learning**, the training data you feed to the algorithm includes the desired solutions, caleld **labels**. A typical supervised learning task is **classification**. Another typical task is to predict a **target** numeric value, such as the price of a car given a set of **features**(mileage, age, brand, etc.) called **predictors**. This sort of task is called **regression**.
+In **supervised learning**, the training data you feed to the algorithm includes the desired solutions, called **labels**. A typical supervised learning task is **classification**. Another typical task is to predict a **target** numeric value, such as the price of a car given a set of **features**(mileage, age, brand, etc.) called **predictors**. This sort of task is called **regression**.
 
 ### collect training data --> train classifier --> make predictions 
 
