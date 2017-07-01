@@ -30,7 +30,7 @@ Now that we have our file made we need to make sure that this file exports an ob
 module.exports = {}
 ```
 
-**1.**Tell webpack where the entry point of our application is located. 
+**1.** Tell webpack where the entry point of our application is located. 
 ```
 // In webpack.config.js
 module.exports = {
