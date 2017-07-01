@@ -16,7 +16,9 @@ npm -v
 ```
 
 # Start
-To start use ```npm init``` which creates a ```package.json``` file.
+Once you've installed NPM create a new directory then inside of that directory run:
+```npm init``` 
+This creates a ```package.json``` file.
 
 # Installing Packages
 Packages: 
