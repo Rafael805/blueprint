@@ -44,3 +44,11 @@ To get error detals run the following command in your termial:
 ```
 webpack --display-error-details
 ```
+
+To run webpack and have it automatically rebundle once a file changes use: 
+```
+webpack -w
+```
+
+# Custom package names
+Note: ```__dirname``` gives you the path of whatever file you're in.
