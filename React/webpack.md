@@ -1,4 +1,4 @@
-# What is webpack?
+# What is Webpack?
 Webpack is a code bundler. Basically, it lets us bundle all of our 3rd party dependencies. 
 
 # What problem is this thing solving? 
@@ -39,4 +39,8 @@ module.exports = {
 ```
 All we do is give our object a property of **entry** and a value which is a string which points to our root JavaScript file in our app.
 
-
+# Errors 
+To get error detals run the following command in your termial:
+```
+webpack --display-error-details
+```
