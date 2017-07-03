@@ -16,7 +16,8 @@ Git projects are usually managed on Github, a website that hosts Git projects fo
 
 The three usual commands you will use are:
 
-```1. git init
+```
+1. git init
 2. git add
 3. git commit
 ```
@@ -50,9 +51,13 @@ To add all files use:
 ## Commit the files 
 
 To store the staged changes run the commit command with a message describing what has been changed.
-
 ```
-commit -m "Your message goes here"
+git commit -m "Your message goes here"
+```
+
+Shortcut to commit and add if file is already being tracked
+```
+git commit -a -m "Your message goes here"
 ```
 
 # History
