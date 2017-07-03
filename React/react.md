@@ -77,4 +77,4 @@ A presentational component is a component that used props to display information
 **Props** are used for initializing a component with data.
 
 # State
-a react **state** is uesd for keeping track of data that changes in a component. 
+a react **state** is used for keeping track of data that changes in a component. 
