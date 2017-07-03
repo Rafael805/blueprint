@@ -23,33 +23,35 @@ The three usual commands you will use are:
 ```
 
 ## Create a new repository
-
 First thing to do is create a new directory (runningmkdir on the command line). Open it and perform
-
-```git init```
+```
+git init
+```
 
 to initialize a new repository. This makes a hidden directory called .git which is where all of git exists.
 
 ## Check the status
-
 Check the status of the files (to see what the current state of our project is)
 
 ```git status```
 
 ## Include a file to be tracked 
-
 To tell Git to start tracking changes made to your file, we first need to add it to the staging area by using
-
-```git add```
+```
+git add
+```
 
 To at multiple files, you could add the changed files to the staging area with:
-```git add filename_1 filename_2```
+```
+git add filename_1 filename_2
+```
 
 To add all files use:
-```git add *```
+```
+git add *
+```
 
 ## Commit the files 
-
 To store the staged changes run the commit command with a message describing what has been changed.
 ```
 git commit -m "Your message goes here"
@@ -61,21 +63,19 @@ git commit -a -m "Your message goes here"
 ```
 
 # History
-
 Use Git's log as a journal that remembers all the changes you've committed so far, in the order of files committed. Try running it now:
-
 ```
 git log
 ```
 
 To see the difference between a file as it appears in the working directory vs. how it appears in your last commit:
-
-```git diff```
+```
+git diff
+```
 
 Use ```q``` to quit
 
 # Backtrack
-
 In Git, the commit you are currently on is known as the ```HEAD``` commit. In many cases, the most recently made commit is the ```HEAD``` commit.
 
 To see the ```HEAD``` commit, enter:
