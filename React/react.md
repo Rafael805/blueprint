@@ -70,6 +70,8 @@ A container component is a component that maintains state and renders child comp
 
 # Presentational components
 A presentational component is a component that used props to display information. 
+
+# Stateless functional components
  
 # Props
 **Props** are used for initializing a component with data.
