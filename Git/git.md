@@ -60,6 +60,8 @@ git commit -m "Your message goes here"
 Shortcut to commit and add if file is already being tracked
 ```
 git commit -a -m "Your message goes here"
+<combined>
+git commit -am "Your message goes here"
 ```
 
 # History
