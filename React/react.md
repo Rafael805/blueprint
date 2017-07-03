@@ -26,6 +26,18 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+# Flow
+```
+[]app
+--[] api
+--[]components
+--app.jsx
+[]node_modules
+[]public 
+package.json
+server.js
+webpack.config.js
+```
 
 # Components 
 Components are the building blocks of React (they’re essentially widgets or modules). To create a React component, you'll use an ES6 class.
