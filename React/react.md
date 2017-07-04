@@ -31,10 +31,14 @@ ReactDOM.render(
 []app
 --[] api
 --[]components
+--[]styles
+----app.css
 --app.jsx
 []node_modules
 []public 
+.gitignore
 package.json
+readme.md
 server.js
 webpack.config.js
 ```
