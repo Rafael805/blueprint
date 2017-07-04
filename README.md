@@ -11,6 +11,7 @@ This is a curated list of notes on technologies and languages I am learning abou
    + NPM
    + JSON
    + jQuery
+   + JSX
 + MEAN
    + MongoDB
    + Express
@@ -40,6 +41,9 @@ This is a curated list of notes on technologies and languages I am learning abou
 + Raspberry PI
 + RESTful
 + React
+   + Babel
+   + Redux
+   + Webpack
 + Terminal 
 + Terms
 + VM
@@ -47,4 +51,4 @@ This is a curated list of notes on technologies and languages I am learning abou
    + Bootstrap
    + CSS 
    + HTML
-   + responsive design
+   + Responsive design
