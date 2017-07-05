@@ -76,9 +76,11 @@ A container component is a component that maintains state and renders child comp
 A presentational component is a component that used props to display information. 
 
 # Stateless functional components
+
+*There are two types of "model" data in React: props and state.*
  
 # Props
-**Props** are used for initializing a component with data.
+**Props** are used for initializing a component with data. They are a way of passing data from parent to child.
 
 # State
-a react **state** is used for keeping track of data that changes in a component. 
+A react **state** is used for keeping track of data that changes in a component. State is reserved only for interactivity, that is, data that changes over time.
