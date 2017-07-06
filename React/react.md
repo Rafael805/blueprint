@@ -1,5 +1,5 @@
 # Why React? 
-React is a JavaScript library. What makes React so convenient for building user interfaces is that data is either received from a component’s parent component, or it’s contained in the component itself.
+React is a JavaScript library. What makes React so convenient for building user interfaces is that data is either received from a component’s parent component, or it’s contained in the component itself. With React, by conceptually re-rendering everything whenever anything changes, not only do you have code that is safe by default, it is also less work as you only need to write the creation path: updates are taken care of for you.
 
 # JSX 
 You can embed any JavaScript expression in **JSX** by wrapping it in curly braces. After compilation, JSX expressions become regular JavaScript objects. This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions:
@@ -44,7 +44,7 @@ webpack.config.js
 ```
 
 # Components 
-Components are the building blocks of React (they’re essentially widgets or modules). To create a React component, you'll use an ES6 class.
+Components are the building blocks of React (they’re essentially widgets or modules). React uses the concept of components which, conceptually are containers for our data and UI . Additionally, a React component can define it's own state using a ```state``` property for handling stateful components. To create a React component, you'll use an ES6 class.
 
 To create a React component: 
 ```
@@ -83,4 +83,9 @@ A presentational component is a component that used props to display information
 **Props** are used for initializing a component with data. They are a way of passing data from parent to child.
 
 # State
-A react **state** is used for keeping track of data that changes in a component. State is reserved only for interactivity, that is, data that changes over time.
+A react **state** is used for keeping track of data that changes in a component. State is reserved only for interactivity, that is, data that changes over time. When we refer to a component's state, we mean a snapshot of the instance of the component on the page. 
+
+For example, in regular HTML (without React), when we have a text ```<input />``` box on a page, the state of the ```<input />``` element is that the value of the ```<input />``` component is a blank string (i.e. ""). When our user types into the ```<input />``` box, the state changes for the ```<input />``` box to set the value to the keystroke the user made.
+
+# State vs Props
+The difference between ```state``` and ```props``` can be a little confusing at first. props are used to pass down data and event handlers from parent components to child components. state on the other hand is used to manipulate the current state of a component.
