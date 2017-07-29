@@ -1,0 +1,5 @@
+# Binary Tree
+
+**Binary trees** are fantastically versatile. It's a collection of nodes, eah has two child nodes and each has one parent node. It is used in creating Binary Search Trees, heaps, seraching and sorting. 
+
+Binary trees are often used to transform an algorithm from linear time to Log(n) time.
