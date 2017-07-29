@@ -1,4 +1,6 @@
-**Stacks are LAST in, FIRST out**
+**Stacks are LAST in, FIRST out (LIFO)**
+
+They are used in almost all computer program to maintain return address for sub function calls. 
 
 ```stack.push``` places data onto a stack
 
