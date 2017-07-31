@@ -2,9 +2,7 @@
 
 BIg O Notation shows how an algorithm scales.
 
-# Quadratic complexity
-
-**O(n2)**: known as **Quadratic complexity**
+# Quadratic complexity O(n^2)
 
 1 item: 1 second
 10 items: 100 seconds
@@ -12,9 +10,7 @@ BIg O Notation shows how an algorithm scales.
 
 The number of items increases by a factor of 10, but the time increases by a factor of 102. Basically, n=10 and so O(n2) gives us the scaling factor n2 which is 102.
 
-# Linear complexity
-
-**O(n)**: known as **Linear complexity**
+# Linear complexity O(n)
 
 1 item: 1 second
 10 items: 10 seconds
@@ -22,9 +18,7 @@ The number of items increases by a factor of 10, but the time increases by a fac
 
 The number of items increases by a factor of 10, and so does the time. n=10 and so O(n)'s scaling factor is 10.
 
-# Constant complexity
-
-**O(1)**: known as **Constant complexity**
+# Constant complexity O(1)
 
 1 item: 1 second
 10 items: 1 second
@@ -32,9 +26,7 @@ The number of items increases by a factor of 10, and so does the time. n=10 and 
 
 The number of items is still increasing by a factor of 10, but the scaling factor of O(1) is always 1.
 
-# Logarithmic Complexity 
-
-**O(log n)**: known as **Logarithmic complexity**
+# Logarithmic Complexity O(log n)
 
 1 item: 1 second
 10 items: 2 seconds
