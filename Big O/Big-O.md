@@ -1,6 +1,17 @@
 # Big O Notation 
 
-BIg O Notation shows how an algorithm scales.
+BIg O Notation describes the fundamental scaling nature of an algorithm.
+
+Note: Complexities are in order from worst to best. 
+
+# O(N!)
+Time to complete is the factorial of the input set. An example of this is the traveling salesman problem brute-force solution.
+
+# O(2^n)
+Does not scale. You have no hope of solving any non-trivially sized problem. Useful for knowing what to avoid, and for experts to find approximate algorithms which are in O(nk).
+
+# O(N Log N) 
+Time to complete increases by the number of items times the result of Log2(N). An example of this is heap sort and quick sort.
 
 # Quadratic complexity O(n^2)
 
@@ -18,14 +29,6 @@ The number of items increases by a factor of 10, but the time increases by a fac
 
 The number of items increases by a factor of 10, and so does the time. n=10 and so O(n)'s scaling factor is 10.
 
-# Constant complexity O(1)
-
-1 item: 1 second
-10 items: 1 second
-100 items: 1 second
-
-The number of items is still increasing by a factor of 10, but the scaling factor of O(1) is always 1.
-
 # Logarithmic Complexity O(log n)
 
 1 item: 1 second
@@ -35,3 +38,11 @@ The number of items is still increasing by a factor of 10, but the scaling facto
 10000 items: 5 seconds
 
 The number of computations is only increased by a log of the input value. So in this case, assuming each computation takes 1 second, the log of the input ```n``` is the time required, hence ```log n```.
+
+# Constant complexity O(1)
+
+1 item: 1 second
+10 items: 1 second
+100 items: 1 second
+
+The number of items is still increasing by a factor of 10, but the scaling factor of O(1) is always 1.
