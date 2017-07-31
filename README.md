@@ -3,7 +3,7 @@
 This is a curated list of notes on technologies and languages I am learning about. Feel free to explore and contribute to the notes.  
 
 + Algorithms
-+ Big-0 Notation
++ Big-O Notation
 + Data Structures
 + Databases
    + MySQL
