@@ -11,4 +11,4 @@ Linked lists are a series of "nodes" with information and pointers to the next n
 + Designed to optimize insertion and deletion, slow at indexing and searching.
 + Stack, commonly implemented with linked lists but can be made from arrays too.
 + Queues, too can be implemented with a linked list or an array.
-
++ Insertion for linked lists is O(n)
