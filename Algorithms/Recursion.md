@@ -4,7 +4,21 @@
 
 In other words,  
 
-** Recursion is a function that calls itself**
+**Recursion is a function that calls itself**
 
++ **Recursive case** a conditional statement that is used to trigger the recursion.
++ **Base case** a conditional statement that is used to break the recursion.
 
+# Recursion Vs. Iteration
++ Recursion is, usually, more expressive and easier to implement.
++ Iteration uses less memory.
++ Recursion is usually much slower because all function calls must be stored in a stack to allow the return back to the caller functions.
 
+Recursion                         | Iteration
+----------------------------------|----------------------------------
+recursive method (array, n)       | iterative method (array)
+  if array[n] is not nil          |   for n from 0 to size of array
+    print array[n]                |     print(array[n])
+    recursive method(array, n+1)  |
+  else                            |
+    exit loop                     |
