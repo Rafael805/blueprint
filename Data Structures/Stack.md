@@ -14,8 +14,7 @@ Stacks can be used to implement an undo/redo tracking in a word processor. Also 
 
 -- example: JS
 
-```
-js
+```js
 var letters = []; // this is our stack
 
 var word = "racecar"
