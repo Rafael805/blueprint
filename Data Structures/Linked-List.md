@@ -6,6 +6,8 @@ A **linked list** allows fast insertion and deletion of items as well as dynamic
 
 Linked lists are a series of "nodes" with information and pointers to the next nodes in the list. A linked list chains nodes together by pointing one node's reference towards another node.
 
+Linked lists have strong performance when it comes to insertion and delete operations, especially when indexed, however accessing items requires traversal of the entire list and makes it unsuitable for some times of sorting. 
+
 # Must know
 
 + Designed to optimize insertion and deletion, slow at indexing and searching.
