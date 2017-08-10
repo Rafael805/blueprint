@@ -1,16 +1,21 @@
 **Stacks are LAST in, FIRST out (LIFO)**
 
-They are used in almost all computer program to maintain return address for sub function calls. 
+They are used in almost all computer program to maintain return address for sub function calls. They have two primary functions - push and pop.
 
 ```stack.push``` places data onto a stack
 
 ```stack.pop``` removes the top element of a stack
 
+It is often useful to have a peek method that allows for the object on the top to be previewed without popping.
+
 ``stack.peek`` 
+
+Stacks can be used to implement an undo/redo tracking in a word processor. Also recording instructions to be completed in a certain order. 
 
 -- example: JS
 
 ```
+js
 var letters = []; // this is our stack
 
 var word = "racecar"
