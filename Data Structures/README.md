@@ -3,11 +3,18 @@
 A **data structure** is a way to store and organize data in order to facilitate access and modifications.
 
 ### Must Know
-+ Queue 
-+ Linked List 
-+ Stack
-+ Priority Queue 
-+ Hash Table
-+ Binary Tree
-+ Matrix
 + Array 
++ Binary Tree
++ Hash Table
++ Linked List 
++ Matrix
++ Priority Queue 
++ Queue 
++ Stack
++ Tries
+
+
+## Concepts to understand 
++ Factory Design Pattern
++ Memory (Stack vs. Heap)
++ Singleton Design Pattern
