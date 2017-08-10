@@ -2,6 +2,12 @@
 
 BIg O Notation describes the fundamental scaling nature of an algorithm.
 
+**O(1)** — Constant Time: Given an input of size n, it only takes a single step for the algorithm to accomplish the task.
+**O(log n)** — Logarithmic time: given an input of size n, the number of steps it takes to accomplish the task are decreased by some factor with each step.
+**O(n)** — Linear Time: Given an input of size n, the number of of steps required is directly related (1 to 1)
+**O(n^2)** — Quadratic Time: Given an input of size n, the number of steps it takes to accomplish a task is square of n.
+**O(C^n)** — Exponential Time: Given an input of size n, the number of steps it takes to accomplish a task is a constant to the n power (pretty large number).
+
 Note: Complexities are in order from worst to best. 
 
 # O(N!)
